@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/foodbag/static/css/main.3503ba07.css",
+    "main.js": "/foodbag/static/js/main.5b075312.js",
+    "static/js/787.dfc2bbda.chunk.js": "/foodbag/static/js/787.dfc2bbda.chunk.js",
+    "static/media/image4.svg": "/foodbag/static/media/image4.d4690f71be6bf6aafc32028d106a68fc.svg",
+    "static/media/image3.svg": "/foodbag/static/media/image3.b1897abc4bb48966aee8823b4b5b1140.svg",
+    "static/media/image1.svg": "/foodbag/static/media/image1.2b9fed9992798f6806f3a834e87f82df.svg",
+    "static/media/image2.svg": "/foodbag/static/media/image2.67a145517a6b8b7ab4929b9872ad6ab2.svg",
+    "static/media/illustration_3.svg": "/foodbag/static/media/illustration_3.638df98ba5f4e52c432cbb14577c3bd6.svg",
+    "static/media/illustration_2.svg": "/foodbag/static/media/illustration_2.e75c5cdbf06c99cf5b93df5b417226e5.svg",
+    "static/media/Illustration_failed.svg": "/foodbag/static/media/Illustration_failed.67eb57ead32b552ba82070bbdd9e0608.svg",
+    "static/media/Illustration_1.svg": "/foodbag/static/media/Illustration_1.37a11835d944bcb8fe2e0905a3042f70.svg",
+    "static/media/Drinks_Cocktails.svg": "/foodbag/static/media/Drinks_Cocktails.b4f515233199261efdca9498dac468be.svg",
+    "static/media/resturant.svg": "/foodbag/static/media/resturant.7518ebc7cae78edff5c968110c7be2bd.svg",
+    "static/media/Vegetables_Drinks.svg": "/foodbag/static/media/Vegetables_Drinks.e53f9b5b2e251468bb2baf9d82b7a322.svg",
+    "static/media/Illustration_success.svg": "/foodbag/static/media/Illustration_success.e15da318a0f4789631bc8b620262f1bf.svg",
+    "static/media/fast-food.svg": "/foodbag/static/media/fast-food.4b772de3ad94bac7f657018d5e23ec55.svg",
+    "index.html": "/foodbag/index.html",
+    "main.3503ba07.css.map": "/foodbag/static/css/main.3503ba07.css.map",
+    "main.5b075312.js.map": "/foodbag/static/js/main.5b075312.js.map",
+    "787.dfc2bbda.chunk.js.map": "/foodbag/static/js/787.dfc2bbda.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3503ba07.css",
+    "static/js/main.5b075312.js"
+  ]
+}
