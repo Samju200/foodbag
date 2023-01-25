@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/foodbag/static/css/main.3503ba07.css",
-    "main.js": "/foodbag/static/js/main.5b075312.js",
-    "static/js/787.dfc2bbda.chunk.js": "/foodbag/static/js/787.dfc2bbda.chunk.js",
+    "main.js": "/foodbag/static/js/main.8a9b5321.js",
+    "static/js/787.cc6f42b5.chunk.js": "/foodbag/static/js/787.cc6f42b5.chunk.js",
     "static/media/image4.svg": "/foodbag/static/media/image4.d4690f71be6bf6aafc32028d106a68fc.svg",
     "static/media/image3.svg": "/foodbag/static/media/image3.b1897abc4bb48966aee8823b4b5b1140.svg",
     "static/media/image1.svg": "/foodbag/static/media/image1.2b9fed9992798f6806f3a834e87f82df.svg",
@@ -18,11 +18,11 @@
     "static/media/fast-food.svg": "/foodbag/static/media/fast-food.4b772de3ad94bac7f657018d5e23ec55.svg",
     "index.html": "/foodbag/index.html",
     "main.3503ba07.css.map": "/foodbag/static/css/main.3503ba07.css.map",
-    "main.5b075312.js.map": "/foodbag/static/js/main.5b075312.js.map",
-    "787.dfc2bbda.chunk.js.map": "/foodbag/static/js/787.dfc2bbda.chunk.js.map"
+    "main.8a9b5321.js.map": "/foodbag/static/js/main.8a9b5321.js.map",
+    "787.cc6f42b5.chunk.js.map": "/foodbag/static/js/787.cc6f42b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3503ba07.css",
-    "static/js/main.5b075312.js"
+    "static/js/main.8a9b5321.js"
   ]
 }
