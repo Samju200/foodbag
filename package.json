@@ -2,8 +2,9 @@
   "name": "foodbag",
   "version": "0.1.0",
   "homepage": "https://samju200.github.io/foodbag",
-  "private": true,
+  "private": false,
   "dependencies": {
+    "@auth0/auth0-react": "^2.0.0",
     "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
