@@ -3,5 +3,27 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  place-items: center;
+  /* place-items: center;
+  place-content: center; */
+  height: 100vh;
+}
+.login > h1 {
+  font-size: 50px;
+}
+.login > button {
+  background: #ad4c4c;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  width: 70%;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}
+.login > button:hover {
+  background-color: #ffffff;
+  color: #ad4c4c;
+  border: 1px solid #ad4c4c;
 }

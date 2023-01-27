@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Auth0Provider } from '@auth0/auth0-react';
 import './index.css';
 
 const container = document.getElementById('root');
@@ -12,7 +13,16 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <Auth0Provider
+        domain="dev-a2if1bfijsxr7gjq.us.auth0.com"
+        clientId="I4C5K6X1T1mO6sTUrh9eR2swOcaVC6rw"
+        authorizationParams={{
+          redirect_uri: window.location.origin,
+        }}
+      >
+        <App />
+      </Auth0Provider>
+      ,
     </Provider>
   </React.StrictMode>
 );
