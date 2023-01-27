@@ -7,10 +7,14 @@ import {
   decreaseCartQty,
   getTotal,
   increaseCartQty,
+  removeAll,
+  getItemTotal,
 } from '../features/cart/cartSlice';
 import Navbar from './Navbar';
+import { useAuth0 } from '@auth0/auth0-react';
 
 function CartPage() {
+  const { isAuthenticated } = useAuth0();
   const dispatch = useDispatch();
   let navigate = useNavigate();
   const cart = useSelector((state) => state.cart);
@@ -25,14 +29,19 @@ function CartPage() {
   };
   useEffect(() => {
     dispatch(getTotal());
+    dispatch(getItemTotal());
   }, [cart, dispatch]);
 
   const handleCheckout = () => {
-    if (cartTotalAmount) {
+    if (isAuthenticated) {
       navigate('/cart/verification');
     } else {
-      navigate('/vendor');
+      navigate('/login');
     }
+  };
+  const handleRemoveAll = () => {
+    dispatch(removeAll());
+    navigate('/vendor');
   };
 
   return (
@@ -41,7 +50,7 @@ function CartPage() {
       <h1>Cart</h1>
       <div className="table_cart">
         <p>{cartItems?.length} Items</p>
-        <p>Remove all</p>
+        <p onClick={handleRemoveAll}>Remove all</p>
       </div>
       <div className="cart_details">
         {cartItems.map((cart) => (

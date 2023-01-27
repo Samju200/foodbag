@@ -6,6 +6,7 @@ const initialState = {
     : [],
   cartTotalAmount: 0,
   deliveryFee: 0,
+  cartTotalItems: 0,
 };
 
 export const cartSlice = createSlice({
@@ -56,10 +57,24 @@ export const cartSlice = createSlice({
       state.cartTotalAmount = total;
       state.deliveryFee = total * 0.01;
     },
+    getItemTotal: (state) => {
+      let totalItems = state.cartItems.reduce((num, item) => num + item.qty, 0);
+      state.cartTotalItems = totalItems;
+    },
+    removeAll: (state, action) => {
+      state.cartItems = [];
+      localStorage.setItem('cartItems', JSON.stringify(state.cartItems));
+    },
   },
 });
 
-export const { addToCart, increaseCartQty, decreaseCartQty, getTotal } =
-  cartSlice.actions;
+export const {
+  addToCart,
+  increaseCartQty,
+  decreaseCartQty,
+  getTotal,
+  removeAll,
+  getItemTotal,
+} = cartSlice.actions;
 
 export default cartSlice.reducer;

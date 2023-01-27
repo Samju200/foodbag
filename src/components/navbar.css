@@ -41,6 +41,12 @@
   text-decoration: none;
   color: #ad4c4c;
 }
+.right_navbar > ul > li > a > span {
+  background-color: #ad4c4c;
+  color: #fff;
+  padding: 3px;
+  border-radius: 50px;
+}
 .right_navbar > ul > li > img {
   width: 50px;
   border-radius: 20px;
