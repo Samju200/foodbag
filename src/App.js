@@ -15,9 +15,9 @@ import Logout from './components/logout';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="foodbag">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/foodbag" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<Logout />} />
 
