@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <BrowserRouter basename="foodbag">
         <Routes>
-          <Route path="/foodbag" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<Logout />} />
 
