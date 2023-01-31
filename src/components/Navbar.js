@@ -27,6 +27,10 @@ function Navbar() {
         <ul>
           <li>
             {' '}
+            <NavLink to="/vendor">Vendor</NavLink>
+          </li>
+          <li>
+            {' '}
             <NavLink to="/cart">
               Cart <span>{cartTotalItems}</span>
             </NavLink>
