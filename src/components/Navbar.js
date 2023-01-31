@@ -40,7 +40,7 @@ function Navbar() {
           </li>
 
           <li className="profile">
-            <img src={user?.picture} alt="user" />
+            <img src={user?.picture} alt="" />
           </li>
         </ul>
       </div>
